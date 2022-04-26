@@ -111,7 +111,7 @@ def reverse_string(s):
 
 print(reverse_string("AMITSAXENA"))
 
-# Ways to remove i’th character from string in Python
+# Ways to remove ith character from string in Python
 
 def remove_nth_element(s, j):
    new_string = ''
@@ -136,7 +136,7 @@ def string_substring(string, substring):
 print(string_substring("I Love my india","Lov")
       )
 
-# Python – Words Frequency in String Shorthands
+## Python Words Frequency in String Shorthands
 
 def word_frequency(s):
 
@@ -244,7 +244,8 @@ def print_triangle(n):
 
     for i in range(0,n-1):
         for j in range(i):
-            print(j+1, end=' ')
+            #print(j+1,end=' ')
+            pass
         print("\n")
 
 print_triangle(5)
@@ -371,7 +372,8 @@ print("%d " %rev)
 def triangle(n):
     for i in range(n):
         for j in range(i+1, n):
-            print(j, end=" ")
+            # print(j, end=" ")
+            pass
         print("\n")
 
 triangle(6)
@@ -382,7 +384,8 @@ def triangle_fir(n):
     for i in range(n):
 
         for j in range(n, i,-1):
-            print(j,end=' ')
+            #print(j,end=' ')
+            pass
         print("\n")
 triangle_fir(5)
 
@@ -391,7 +394,8 @@ def triangle_firrst(n):
     for i in range(n):
 
         for j in range(n, i,-1):
-            print(j,end=' ')
+            #print(j,end=' ')
+            pass
         print("\n")
 triangle_firrst(5)
 
@@ -400,7 +404,8 @@ def triangle_firrst1(n):
     for i in range(n):
 
         for j in range(n, i,-1):
-            print(n,end=' ')
+            #print(n,end=' ')
+            pass
         print("\n")
 triangle_firrst1(5)
 
@@ -408,7 +413,8 @@ triangle_firrst1(5)
 def triangless(rows):
     for i in range(1, rows):
         for j in range(0, i):
-            print(j,  end=" ")
+            #print(j,  end=" ")
+            pass
         print("\n")
 
 
@@ -420,7 +426,8 @@ for row in range(1, rows):
 
     for column in range(row, 0, -1):
 
-        print(column, end=' ')
+        #print(column, end=' ')
+        pass
 
     print(' ')
 
@@ -766,7 +773,8 @@ print("%d " %rev)
 def triangle(n):
     for i in range(n):
         for j in range(i+1, n):
-            print(j, end=" ")
+            #print(j, end=" ")
+            pass
         print("\n")
 
 triangle(6)
@@ -777,7 +785,8 @@ def triangle_fir(n):
     for i in range(n):
 
         for j in range(n, i,-1):
-            print(j,end=' ')
+            #print(j,end=' ')
+            pass
         print("\n")
 triangle_fir(5)
 
@@ -786,7 +795,8 @@ def triangle_firrst(n):
     for i in range(n):
 
         for j in range(n, i,-1):
-            print(j,end=' ')
+            #print(j,end=' ')
+            pass
         print("\n")
 triangle_firrst(5)
 
@@ -795,7 +805,8 @@ def triangle_firrst1(n):
     for i in range(n):
 
         for j in range(n, i,-1):
-            print(n,end=' ')
+            #print(n,end=' ')
+            pass
         print("\n")
 triangle_firrst1(5)
 
@@ -803,7 +814,8 @@ triangle_firrst1(5)
 def triangless(rows):
     for i in range(1, rows):
         for j in range(0, i):
-            print(j,  end=" ")
+            #print(j,  end=" ")
+            pass
         print("\n")
 
 
@@ -815,7 +827,8 @@ for row in range(1, rows):
 
     for column in range(row, 0, -1):
 
-        print(column, end=' ')
+        #print(column, end=' ')
+        pass
 
     print(' ')
 
