@@ -14,6 +14,8 @@ payload={}
 #   'Authorization': 'Basic YXNoaXNoOjEyMw=='
 
 Hi GUys i am doing some changes in my current file
+
+Hi Guys i have done chnages from git UI.
 # }
 
 response = requests.request("GET", url)
